@@ -1,0 +1,117 @@
+.banner {
+  /* height: 793px; */
+  height: 44.3vw;
+  width: 100%;
+  background-color: #6a718f;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  /* z-index: inherit 0; */
+
+  /* overflow-clip-box: initia; */
+  /* background-color:yellow; */
+
+  /* position: absolute; */
+  /* transition: ease; */
+  position: relative;
+}
+.banner:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 54%;
+  height: 36.4vw;
+  /* background: transparent linear-gradient(137deg, #c1c7eb 0%, #6a718f 100%) 0%
+  0% no-repeat padding-box; */
+  background-color: #6a718f;
+  /* background-color: red; */
+
+  transform: rotate(18deg);
+  right: -1.5vw;
+  /* left:-10px; */
+  /* clip: rect(0px,100px,0px,0px); */
+  /* object-fit: initial; */
+  top: 19vw;
+  clear: both;
+  /* z-index: 1; */
+}
+
+.banner:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 58%;
+  height: 35vw;
+  background-color: white;
+  /* z-index: -1; */
+  /* background-color: red; */
+  transform: rotate(22deg);
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  left: -2vw;
+  top: 36vw;
+}
+
+.logo {
+  margin-top: 14vw;
+  margin-left: 16vw;
+  /* width: 227px; */
+  height: 8vw;
+  /* background-color: yellow; */
+}
+
+.logo-box {
+  /* background-color: chartreuse; */
+  /* flex: 1; */
+  text-align: center;
+  float: left;
+  width: 40%;
+  padding-bottom: 1.2vw;
+  /* padding: 0px 0px 0px 20px;     */
+  overflow: hidden;
+}
+
+.image-box {
+  /* background-color: red; */
+  /* flex: 1; */
+  /* height: 600px; */
+  top: 0;
+  float: right;
+  width: 60%;
+  overflow: hidden;
+}
+.image1 {
+  /* background-color: aqua; */
+  width: 34vw;
+  margin-left: 10vw;
+  /* height: vw; */
+  position: relative;
+  z-index: 5;
+}
+.image2 {
+  position: absolute;
+  margin-left: -20vw;
+  z-index: 1;
+  /* width: 467px; */
+  width: 34vw;
+
+  /* height: 583px; */
+}
+
+.button {
+  /* top: 392px; */
+  /* left: 66px; */
+  padding: 1vw 1.5vw;
+  font-family: Helvetica;
+  font-size: 1vw;
+  color: lightslategray;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.3vw 0.6vw #00000029;
+  border-radius: 5vw;
+  opacity: 1;
+  border: none;
+  margin-right: 1vw;
+  margin-top: 0.3vw;
+  /* margin-bottom: 5px; */
+}

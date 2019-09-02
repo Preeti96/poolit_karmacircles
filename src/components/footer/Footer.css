@@ -1,0 +1,79 @@
+.help {
+  /* background-color: chartreuse; */
+  text-align: center;
+  margin-top: -0.3vw;
+  font-size: 4vw;
+  /* text-emphasis-color: white; */
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+.info {
+  /* background-color: rgb(240, 51, 51); */
+  /* width: 20%; */
+  width: 100%;
+  height: 2.3vw;
+  display: block;
+  border: none;
+  /* margin: 40px; */
+  margin-left: 3.2vw;
+  padding: -0.1vw 0;
+  border-bottom: solid 0.02vw lightgrey;
+  background-color: rgb(65, 70, 69);
+  font-size: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+
+.info-container {
+  /* background-color: brown; */
+  width: 40%;
+  height: 10vw;
+  margin-top: -1vw;
+}
+
+.contact-items {
+  background-color: rgb(65, 70, 69);
+  width: 100%;
+  height: 22vw;
+  margin: 5vw 0;
+  position: relative;
+  /* border: 1px solid white; */
+}
+
+.contact {
+  /* display: inline-block; */
+  /* background-color: aqua; */
+  text-align: center;
+  /* text-align-last: center; */
+  float: right;
+  /* line-height: -10px; */
+  width: 20%;
+  height: 8vw;
+  margin-right: 9vw;
+  margin-top: -11vw;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: white;
+}
+.send-message {
+  margin-left: 20vw;
+  background-color: rgb(65, 70, 69);
+  border: 0.09vw solid white;
+  padding: 0.7vw;
+  color: white;
+  font-size: 1vw;
+  position: relative;
+}
+.line {
+  width: 0.8%;
+  height: 7vw;
+  padding-top: 3vw;
+  margin-left: 55vw;
+  /* background-color: blue; */
+  text-align: center;
+  margin-top: -9vw;
+  border-right: 0.01vw solid lightgrey;
+  font-size: 1vw;
+  text-decoration: none;
+  color: rgb(154, 172, 189);
+}
